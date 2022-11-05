@@ -1171,6 +1171,23 @@
     height: 5vw;
   }
 
+  .animation_footer_button {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-right: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-right: 0%;
+      width: 100%;
+    }
+  }
+
   .desktopFooterButton {
     height: 5vw;
     width: 23vw;
@@ -1220,4 +1237,5 @@
   .desktop-navigation li a:focus {
     font-size: 110%;
   }
+
 }
